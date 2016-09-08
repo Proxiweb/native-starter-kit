@@ -19,14 +19,14 @@ class BlankPage extends Component {
 
     render() {
         return (
-            <Container theme={myTheme} style={{backgroundColor: '#565051'}}>
+            <Container theme={myTheme} style={{backgroundColor: '#6180AC'}}>
                 <Header>
                     <Button transparent onPress={() => this.popRoute()}>
                         <Icon name='ios-arrow-back' />
                     </Button>
-                    
+
                     <Title>Blank Page</Title>
-                    
+
                     <Button transparent onPress={this.props.openDrawer}>
                         <Icon name='ios-menu' />
                     </Button>

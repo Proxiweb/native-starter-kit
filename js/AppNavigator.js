@@ -43,7 +43,7 @@ export var globalNav = {};
 
 const searchResultRegexp = /^search\/(.*)$/;
 
-const reducerCreate = params=>{
+const reducerCreate = params =>{
     const defaultReducer = Reducer(params);
     return (state, action)=>{
         var currentState = state;
@@ -60,7 +60,7 @@ const reducerCreate = params=>{
 const drawerStyle  = { shadowColor: '#000000', shadowOpacity: 0.8, shadowRadius: 3};
 
 class AppNavigator extends Component {
-    
+
     constructor(props){
         super(props);
     }
